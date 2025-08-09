@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aggelos Kamberi | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-overlay">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Particle Background -->
+  <div class="particles" id="particles"></div>
+
+  <header class="glass p-6 rounded-b-2xl">
+    <div class="max-w-5xl mx-auto flex justify-between items-center header-content">
+      <h1 class="text-4xl font-bold name-title">
+        <i class="fas fa-code mr-3"></i>Aggelos Kamberi
+      </h1>
+      <div class="text-sm text-white">
+        <p class="flex items-center mb-2"><i class="fas fa-map-marker-alt mr-2"></i>Athens, Illiopoli</p>
+        <p class="flex items-center mb-2">
+          <i class="fas fa-envelope mr-2"></i>
+          <a href="mailto:aggeloskamberis@gmail.com" class="contact-link">aggeloskamberis@gmail.com</a>
+        </p>
+        <p class="flex items-center"><i class="fas fa-phone mr-2"></i>6945457461</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto p-6 space-y-10">
+
+    <section class="section-animate card-3d glass p-8 rounded-3xl">
+      <h2 class="text-3xl font-bold section-header">
+        <i class="fas fa-user-circle mr-3"></i>Summary
+      </h2>
+      <p class="text-white text-lg leading-relaxed">
+        I'm passionate about working in the Computer Industry. I've developed strong skills and real-world experience, ready to apply them professionally.
+      </p>
+    </section>
+
+    <section class="section-animate">
+      <h2 class="text-3xl font-bold section-header">
+        <i class="fas fa-briefcase mr-3"></i>Experience
+      </h2>
+      <div class="space-y-6">
+        <div class="experience-card card-3d">
+          <h3 class="font-bold text-xl text-white mb-2">
+            <i class="fas fa-coffee mr-2"></i>Waiter
+          </h3>
+          <p class="text-sm text-blue-200 mb-3">Coffee-Berry, Athens — 10/2021 to 01/2025</p>
+          <p class="text-white leading-relaxed">Customer-facing role that taught me to handle complaints and improve service experience.</p>
+        </div>
+        <div class="experience-card card-3d">
+          <h3 class="font-bold text-xl text-white mb-2">
+            <i class="fas fa-headset mr-2"></i>Customer Service
+          </h3>
+          <p class="text-sm text-blue-200 mb-3">Mediatel, Athens — 04/2023 to 06/2023</p>
+          <ul class="list-none space-y-2 text-white">
+            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-green-400"></i>Resolved client issues clearly and efficiently</li>
+            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-green-400"></i>Team and solo work proficient</li>
+            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-green-400"></i>Handled tough customer interactions</li>
+            <li class="flex items-center"><i class="fas fa-check-circle mr-2 text-green-400"></i>Logged accurate client records</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-animate">
+      <h2 class="text-3xl font-bold section-header">
+        <i class="fas fa-graduation-cap mr-3"></i>Education
+      </h2>
+      <div class="space-y-6">
+        <div class="experience-card card-3d">
+          <h3 class="font-bold text-xl text-white mb-2">
+            <i class="fas fa-university mr-2"></i>University of Derby (Computing)
+          </h3>
+          <p class="text-sm text-blue-200 mb-3">Athens — 09/2025</p>
+          <ul class="list-none space-y-2 text-white">
+            <li class="flex items-center"><i class="fas fa-robot mr-2 text-purple-400"></i>Data Mining & AI, Software Engineering, Networking, Data Structures</li>
+            <li class="flex items-center"><i class="fas fa-code mr-2 text-purple-400"></i>Built: Python interpreter, Website prototypes, AI tools</li>
+          </ul>
+        </div>
+        <div class="experience-card card-3d">
+          <h3 class="font-bold text-xl text-white mb-2">
+            <i class="fas fa-laptop-code mr-2"></i>IEK Alpha (Computer Software Technician)
+          </h3>
+          <p class="text-sm text-blue-200 mb-3">Athens — 06/2023</p>
+          <p class="text-white">Studied: Pascal, VB, OS, Database Systems, Computer Architecture</p>
+        </div>
+        <div class="experience-card card-3d">
+          <h3 class="font-bold text-xl text-white mb-2">
+            <i class="fas fa-school mr-2"></i>High School
+          </h3>
+          <p class="text-sm text-blue-200 mb-3">Athens — 06/2020</p>
+          <p class="text-white">English Literature, Computer Science Intro</p>
+        </div>
+        <div class="experience-card card-3d">
+          <h3 class="font-bold text-xl text-white mb-2">
+            <i class="fas fa-certificate mr-2"></i>C2 Proficiency
+          </h3>
+          <p class="text-sm text-blue-200 mb-3">Androulakis Schools — 10/2016</p>
+          <p class="text-white">English - C2 Level (Michigan Test)</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-animate">
+      <h2 class="text-3xl font-bold section-header">
+        <i class="fas fa-cogs mr-3"></i>Skills
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <span class="skill-tag"><i class="fas fa-users mr-2"></i>Customer Service</span>
+        <span class="skill-tag"><i class="fas fa-chart-line mr-2"></i>Data Mining</span>
+        <span class="skill-tag"><i class="fas fa-globe mr-2"></i>Website Development</span>
+        <span class="skill-tag"><i class="fas fa-file-alt mr-2"></i>Documentation</span>
+        <span class="skill-tag"><i class="fas fa-language mr-2"></i>English, Greek, Albanian</span>
+        <span class="skill-tag"><i class="fas fa-file-powerpoint mr-2"></i>Microsoft Word / PowerPoint</span>
+        <span class="skill-tag"><i class="fab fa-windows mr-2"></i>Windows</span>
+        <span class="skill-tag"><i class="fas fa-handshake mr-2"></i>Teamwork & Communication</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="glass text-center py-6 mt-10 rounded-t-2xl">
+    <p class="text-white font-medium">
+      © 2025 Aggelos Kamberi • Built with <i class="fas fa-heart text-red-400 mx-1"></i> and <i class="fas fa-coffee text-yellow-400 mx-1"></i>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
